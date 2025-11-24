@@ -1,0 +1,57 @@
+{
+    "clientes": [
+        {
+            "id": 1,
+            "nombre": "dress",
+            "telefono": "78888848",
+            "email": "dress@huhu.com"
+        },
+        {
+            "id": 2,
+            "nombre": "dress",
+            "telefono": "457898",
+            "email": "dress900@gma.com"
+        },
+        {
+            "id": 3,
+            "nombre": "dress",
+            "telefono": "788454",
+            "email": "dreslop"
+        }
+    ],
+    "vehiculos": [
+        {
+            "id": 1,
+            "marca": "nissan",
+            "modelo": "mina",
+            "anio": 2005,
+            "precio": 25000.0,
+            "estado": "Disponible"
+        },
+        {
+            "id": 2,
+            "marca": "nisan",
+            "modelo": "corrola",
+            "anio": 2005,
+            "precio": 1222.0,
+            "estado": "Vendido"
+        },
+        {
+            "id": 3,
+            "marca": "toyota",
+            "modelo": "nissan",
+            "anio": 2005,
+            "precio": 12000.0,
+            "estado": "Disponible"
+        },
+        {
+            "id": 4,
+            "marca": "nissan",
+            "modelo": "pollo",
+            "anio": 2005,
+            "precio": 12400.0,
+            "estado": "Disponible"
+        }
+    ],
+    "ventas": []
+}
