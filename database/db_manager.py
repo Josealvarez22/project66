@@ -3,11 +3,11 @@ import sqlite3
 import os
 
 class DBManager:
-    def __init__(self):
-        # database
+    def __init__(self, db_name="concesionaria.db"):
         base_dir = os.path.dirname(os.path.abspath(__file__))
-        self.db_path = os.path.join(base_dir, "concesionaria.db")
+        self.db_path = os.path.join(base_dir, db_name)
 
+    # El resto sigue igual...
     def get_connection(self):
         return sqlite3.connect(self.db_path)
 
